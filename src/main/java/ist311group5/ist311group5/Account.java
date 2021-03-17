@@ -130,6 +130,7 @@ public class Account {
      * User id and the username are return
      * @return userId and username
      */
+    @Override
     public String toString() {
         return userId + " " + username;
     }
